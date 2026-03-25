@@ -254,3 +254,5 @@ if __name__ == "__main__":
     print_timetable(tt4)
     print(f"  Final clashes : {clashes4}")
     save_plot(cl4, tl4, "plots/experiment_2c.png", "cooling_rate=0.995")
+
+
