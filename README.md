@@ -136,7 +136,7 @@ With a slow cooling rate (0.995), the algorithm explores the search space more t
 | Experiment | Key setting | Final clashes | Main finding in one sentence |
 |------------|-------------|---------------|------------------------------|
 | 1 — Baseline | cooling_rate = 0.995 |3 |Slow cooling improves solution quality but may not always reach zero clashes  |
-| 2 — Cooling rate | cooling_rate = 0.80 |8 |Fast cooling leads to poor solutions due to insufficient exploration |
+| 2 — Cooling rate | cooling_rate = 0.995 |3 |Slower cooling gives better and more stable solutions than fast cooling. |
 
 **In your own words — what is the most important thing you learned about Simulated Annealing from these experiments? (3–5 sentences)**
 ```
@@ -151,9 +151,9 @@ Overall, choosing the right cooling schedule is important for achieving good per
 
 ## Submission Checklist
 
-- [ ] Student name and ID filled in
-- [ ] Q1, Q2, Q3 answered
-- [ ] Experiment 1: table filled, timetable pasted, plot observation written
-- [ ] Experiment 2: results table filled (3 rows), observation and answer written
-- [ ] Summary table completed and reflection written
-- [ ] `plots/` contains: `experiment_1.png`, `experiment_2a.png`, `experiment_2b.png`, `experiment_2c.png`
+- [x] Student name and ID filled in
+- [x] Q1, Q2, Q3 answered
+- [x] Experiment 1: table filled, timetable pasted, plot observation written
+- [x] Experiment 2: results table filled (3 rows), observation and answer written
+- [x] Summary table completed and reflection written
+- [x] `plots/` contains: `experiment_1.png`, `experiment_2a.png`, `experiment_2b.png`, `experiment_2c.png`
