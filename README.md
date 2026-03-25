@@ -136,7 +136,7 @@ With a slow cooling rate (0.995), the algorithm explores the search space more t
 | Experiment | Key setting | Final clashes | Main finding in one sentence |
 |------------|-------------|---------------|------------------------------|
 | 1 — Baseline | cooling_rate = 0.995 |3 |Slow cooling improves solution quality but may not always reach zero clashes  |
-| 2 — Cooling rate | cooling_rate = 0.80 |8 |Fast cooling leads to poor solutions due to insufficient exploration |
+| 2 — Cooling rate | cooling_rate = 0.995 |3 |Slower cooling gives better and more stable solutions than fast cooling. |
 
 **In your own words — what is the most important thing you learned about Simulated Annealing from these experiments? (3–5 sentences)**
 ```
